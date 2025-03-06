@@ -198,7 +198,7 @@ p {
     row-gap: 100px;
     column-gap: 50px;
     justify-content: space-around;
-    padding: 120px;
+    padding: 50px 90px 90px 90px;
     margin-left: 100px;
 }
 .common h3{
@@ -223,22 +223,21 @@ p {
 .arrow{
     margin-left: 640px;
 }
+.ipodhiku{
+    margin-top: 70px;
+}
 /* fifth page */
 .steps-section {
     display: flex;
     align-items: center;
     padding: 60px;
+    padding-left: 180px;
 }
 
 .fifthstep {
     max-width: 50%;
 }
 
-/* h2 {
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 20px;
-} */
 
 .step {
     margin-bottom: 25px;
@@ -274,4 +273,7 @@ step p {
 .head{
     margin-top: 95px;
     text-align: center;
+}
+.class{
+    margin-top: 120px;
 }
