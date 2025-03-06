@@ -1,24 +1,22 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');* {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
     background-color: #F4F4FC;
-}
-span{
-    background: white;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 50px;
-    background: white;
+    background-color:rgb(255, 255, 255);
     position: fixed; 
     top: 0;           
     left: 0;
     width: 94%;  
     z-index: 1000;    
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -27,46 +25,50 @@ span{
     align-items: center;
     font-size: 20px;
     font-weight: bold;
-    background: white;
+    background-color: white;
 }
 
 .logo img {
     height: 24px;
     margin-right: 8px;
+    background-color: white;
 }
 .nav-links {
     list-style: none;
     display: flex;
     gap: 30px;
-    background: white;
+    background-color: white;
 }
 
 .nav-links li a {
     text-decoration: none;
     color: #555;
     font-size: 16px;
-    background: white;
+    background-color: white;
 }
 .nav-links .active {
     color: orange;
     font-weight: bold;
-    background: white;
+    background-color: white;
 }
 .buttons {
     display: flex;
     gap: 15px;
-    background: white;
+    background-color: white;
 }
 
 button {
     padding: 8px 16px; 
     border-radius: 10px;
     font-size: 14px;
+    background-color: white;
 }
 .login {
-    background: white;
     color: #2d81f7;
     border: 1px solid #5a77ff;
+}
+.Fynro{
+    background-color: white;
 }
 .get-started {
     background: #5a77ff;
@@ -74,13 +76,18 @@ button {
     border: none;
 }
 /* Main Container */
+.container h1{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+}
 .container {
     display: flex;
     align-items: center;
     max-width: 1100px; 
     margin: 60px; 
     right: 100px;
-    background-color: #F4F4FC;
+    background-color: #f0f2ff;
     width: 100%;
 }
 
@@ -97,10 +104,11 @@ h1 {
 }  
 
 p {
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 400;
     color: black;
     line-height: 1.5;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 .tick{
     height:23px
@@ -112,7 +120,9 @@ p {
     display: flex;
     gap: 15px;
     margin: 35px 0;
-    font-weight: 600;
+    font-weight: 200;
+    color: rgba(85, 85, 85, 1);
+    font-size: 20px;
 } 
 
 .btn {
@@ -126,10 +136,9 @@ p {
     margin-top: 25px;
 } 
 .image-container img {
-    width: 100%; 
-    padding-top: 100px;
-    padding-left:150px ;
-    border-radius: 10px;
+    width: 130%; 
+    padding-top: 200px;
+    padding-left:100px ;
 }
 .highlight{
     background-color: #F4F4FC;
@@ -139,7 +148,8 @@ p {
     margin-left: 160px;
 }
 .leterup{
-    margin-bottom: 300px;
+    margin-bottom: 310px;
+    margin-left: 50px;
 }
 .features span{
     background-color: #F4F4FC;
@@ -148,13 +158,14 @@ p {
 .watch{
     margin-top: 95px;
     background-color: white;
+    font-family: Gilroy-Bold;
 }
 .video-thumbnail{
     margin-top: 45px;
 }
 .watch-actions-section {
     text-align: center;
-    padding: 50px ;  
+    padding: 74px ;  
 }
 .video-container {
     position: relative;
@@ -170,18 +181,6 @@ p {
     border-radius: 50%;
     background: none;
 }
-.video-title {
-    position: absolute;
-    bottom: 0px;
-    width: 95%;
-    background: black;
-    color: white; 
-    padding: 25px;
-    text-align: left; 
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 10px;
-}
 .watch-actions-section{
     margin-top: 140px;
     background-color: white;
@@ -190,7 +189,9 @@ p {
 /* third-page */
 .third{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 110px;
+    font-family: Gilroy-Bold;
+    font-weight: 600;
 }
 .all{
     display: grid;
@@ -198,11 +199,13 @@ p {
     row-gap: 100px;
     column-gap: 50px;
     justify-content: space-around;
-    padding: 50px 90px 90px 90px;
+    padding: 70px 170px 70px 170px;
     margin-left: 100px;
 }
 .common h3{
     margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 
 /* fourth page */
@@ -219,12 +222,11 @@ p {
     text-align: center;
     font-size: 17px;
     font-weight: 550px;
-}
-.arrow{
-    margin-left: 640px;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 .ipodhiku{
-    margin-top: 70px;
+    margin-top: 100px;
+    font-family: Gilroy-Bold;
 }
 /* fifth page */
 .steps-section {
