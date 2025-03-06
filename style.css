@@ -139,7 +139,7 @@ p {
     margin-left: 160px;
 }
 .leterup{
-    margin-bottom: 320px;
+    margin-bottom: 300px;
 }
 .features span{
     background-color: #F4F4FC;
@@ -227,18 +227,18 @@ p {
 .steps-section {
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 60px;
 }
 
 .fifthstep {
     max-width: 50%;
 }
 
-h2 {
+/* h2 {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 20px;
-}
+} */
 
 .step {
     margin-bottom: 25px;
@@ -255,13 +255,13 @@ h2 {
     margin-bottom: 8px;
 }
 
-h3 {
+step h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-p {
+step p {
     font-size: 16px;
     color: #555;
     line-height: 1.5;
@@ -269,4 +269,9 @@ p {
 .image-containerfifth{
     max-width: 100%;
     height: auto;
+    margin-left: 100px;
+}
+.head{
+    margin-top: 95px;
+    text-align: center;
 }
