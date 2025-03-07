@@ -14,8 +14,7 @@
     top: 0;           
     left: 0;
     width: 94%;  
-    z-index: 1000;    
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;   
     font-family: "Poppins", sans-serif;
 }
 
@@ -58,7 +57,7 @@
 }
 
 button {
-    padding: 8px 16px; 
+    padding: 9px 17px; 
     border-radius: 10px;
     font-size: 14px;
     background-color: white;
@@ -205,7 +204,7 @@ p {
 .common h3{
     margin-top: 20px;
     font-size: 20px;
-    font-family: 'Gilroy-Medium', sans-serif;
+    /* font-family: 'Gilroy-Medium', sans-serif; */
 }
 
 /* fourth page */
@@ -221,7 +220,6 @@ p {
     color:#5a77ff ;
     text-align: center;
     font-size: 17px;
-    font-weight: 550px;
     font-family: 'Gilroy-Medium', sans-serif;
 }
 .ipodhiku{
